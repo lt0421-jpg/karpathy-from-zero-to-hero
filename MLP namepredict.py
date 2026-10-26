@@ -129,7 +129,8 @@ logits = h @ W2 + b2
 loss = F.cross_entropy(logits,Ydev)  #自带的交叉熵更好用 loss是一个张量
 loss
 
-for _ in range(20):
+#以下是采样生成名字的代码  (not understand yet)
+for _ in range(20): 
 
   out = []
   context = [0] * block_size
