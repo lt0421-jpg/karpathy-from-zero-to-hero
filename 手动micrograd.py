@@ -1,3 +1,8 @@
+"""
+questions:
+what if we use other function instead of tanh??
+"""
+
 import random
 import math
 import numpy as np
